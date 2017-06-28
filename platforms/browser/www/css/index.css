@@ -1,0 +1,27 @@
+.player-1-base {
+  height: calc((100vh - 100vw)/2);
+}
+
+.game-base {
+  height: 100vw;
+  padding: 10px !important;
+  position: relative;
+}
+
+.player-2-base {
+  height: calc((100vh - 100vw)/2);
+}
+
+.blink {
+  animation: fade 3000ms infinite;
+  -webkit-animation: fade 3000ms infinite;
+}
+
+html{
+  /*overflow: hidden;*/
+}
+canvas{
+  position: absolute;
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+}
